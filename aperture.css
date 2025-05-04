@@ -541,8 +541,8 @@ body {
       font-size: 12px;
     }
     .services {
-      grid-template-columns: 96%;
-      grid-template-rows: repeat(4, 50%);
+      grid-template-columns: 100%;
+      grid-template-rows: none;
       gap: 4vw;
     }
     .service__text {
@@ -644,8 +644,8 @@ body {
       font-size:10px;
     }
     .services {
-      grid-template-columns: 96%;
-      grid-template-rows: repeat(4, 50%);
+      grid-template-columns: 100%;
+      grid-template-rows: none;
       gap: 4vw;
     }
     .service__text {
