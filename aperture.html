@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aperture</title>
     <link rel="stylesheet" href="aperture.css">
+    <script defer src = "script.js"></script>
 </head>
 <body>
-    <header class="aperture__header">
-        <img class="logo__image" src="img/logo.svg" alt="Логотип Aperture">                 
+    <header class="aperture__header open">
+        <img class="logo__image" src="img/logo.svg" alt="Логотип Aperture">   
+        <button class="burger" id="burger">
+            <span class = "line1"></span><span class = "line2"></span><span class = "line3"></span>
+        </button>              
         <nav class="header__nav">
             <a href="#" class = "header__nav-links">Business areas</a>
             <a href="#" class = "header__nav-links">Featured images</a>
